@@ -1,38 +1,41 @@
-.App {
+:root {
+  --light-blue:#117aca;
+  --dark-blue:#1c4778;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  /* background: #211e1e; */
+  padding: 10px;
+}
+.container {
+  width:75%;
+  margin: auto;
+  /* background: #211e1e; */
+  padding: 20px 40px;
+  border-radius: 10px;
+  min-height: 500px;
+}
+.App-header {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: var(--light-blue);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  background: var(--dark-blue);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size:18px;
+  padding: 10px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  transition: .2s ease all;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  background: var(--light-blue);
+  cursor: pointer;
+  transform:scale(1.05);
+  box-shadow:1px 1px 6px #463e3e;
 }
