@@ -5,7 +5,7 @@ const ExpenseItem = (props) => {
 
   return (
     <div className="item">
-      <ExpenseDate />
+      <ExpenseDate date={props.date} />
       <div className="title-cost-wrapper">
         <div className="title"><h3>{props.title}</h3></div>
         <div className="cost"><h4>${props.cost}</h4></div>
