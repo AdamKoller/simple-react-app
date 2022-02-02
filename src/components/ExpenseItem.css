@@ -4,6 +4,7 @@
   }
 .item {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background: #211e1e;
     box-shadow: 0 0 10px #ccc;
@@ -28,10 +29,11 @@
 }
 .cost h3{
     font-weight:100;
+    font-size:1em;
     border:1px solid #fff;
     border-radius:6px;
     padding:10px;
-    width:100px;
+    max-width:100px;
     background: var(--light-blue);
     margin-left:auto;
 }
