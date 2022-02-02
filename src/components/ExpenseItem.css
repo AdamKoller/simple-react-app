@@ -13,9 +13,14 @@
     padding:0 10px;
     align-items:center;
     transition: .2s ease all;
+    margin: 10px 0;
 }
 .item:hover {
     transform: scale(1.03);
+}
+.item .title h2{
+    font-size:1.5em;
+    font-weight: 100;
 }
 .item > h3,
 .item .title {
@@ -39,4 +44,18 @@
 }
 .cost {
     flex-grow:2;
+}
+
+@media (max-width:1000px) {
+    .item > h3 {
+        width: 100% !important;
+    }
+}
+@media (max-width:767px) {
+    .title {
+        width: 100% !important;
+    }
+    .cost h3 {
+        margin-left: 0;
+    }
 }
