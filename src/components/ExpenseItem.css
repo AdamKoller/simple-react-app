@@ -2,6 +2,9 @@
     --light-blue:#117aca;
     --dark-blue:#1c4778;
   }
+.card {
+
+}
 .item {
     display:flex;
     flex-wrap: wrap;
