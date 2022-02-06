@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './components/Card';
 import ExpenseList from './components/ExpenseList';
 
 function App() {

@@ -3,23 +3,30 @@
     --dark-blue:#1c4778;
   }
 .card {
-
+    padding: 10px 30px;
+    border-radius: 16px;
+    background: #211e1e;
 }
-.item {
+.expenses {
+    /* padding: 10px 30px;
+    border-radius: 16px;
+    background: #211e1e; */
+}
+.expense-item {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: #3b3636;
-    box-shadow: 0 0 10px #ccc;
+    background: #585252;
     border-radius: 16px;
     color: #fff;
     padding:10px;
     align-items:center;
     transition: .2s ease all;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .item:hover {
     transform: scale(1.03);
+    box-shadow: 0 0 10px #ccc;
 }
 .date {
     font-weight:100;
