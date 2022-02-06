@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 // import Card from './components/Card';
 import ExpenseList from './components/ExpenseList';
@@ -30,6 +31,14 @@ function App() {
       date: new Date(2021, 11, 31)
     }
   ]
+
+  // IN THE PAST, YOU NEED TO USE 'import React from "react"' WHEN USING OBJECTS LIKE SHOWN BELOW
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('h2', {}, 'A Simple React App'),
+  //   React.createElement(ExpenseList, { items: expenses })
+  // );
 
   return (
     <div className="container">
