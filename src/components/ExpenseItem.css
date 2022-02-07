@@ -7,11 +7,6 @@
     border-radius: 16px;
     background: #211e1e;
 }
-.expenses {
-    /* padding: 10px 30px;
-    border-radius: 16px;
-    background: #211e1e; */
-}
 .expense-item {
     display:flex;
     flex-wrap: wrap;
