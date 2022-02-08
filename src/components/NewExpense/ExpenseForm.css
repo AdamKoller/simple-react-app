@@ -1,11 +1,15 @@
 .new-expense__controls {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    column-gap: .5em;
     margin-bottom: 1rem;
     text-align: left;
   }
-  
+  .new-expense__control {
+    width:33%;
+  }
   .new-expense__control label {
     font-weight: bold;
     margin-bottom: 0.5rem;
