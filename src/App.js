@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import NewExpense from './components/NewExpense/NewExpense';
 // import Card from './components/Card';
 import ExpenseList from './components/ExpenseList';
 
@@ -43,7 +44,7 @@ function App() {
   return (
     <div className="container">
       <header className="App-header">
-        <h1>A Simple React App</h1>
+        <NewExpense />
         {/* the 'items' keyword will be replaced by the array 'expenses' */}
         <ExpenseList items={expenses} />
       </header>
