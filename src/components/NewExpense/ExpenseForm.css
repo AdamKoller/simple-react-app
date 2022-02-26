@@ -23,7 +23,15 @@
     border: 1px solid #ccc;
     width: min-content;
   }
-  
+  .new-expense__control label {
+    color: #fff;
+  }
   .new-expense__actions {
     text-align: left;
+  }
+
+  @media (max-width:900px) {
+    .new-expense__control {
+      width: 100% !important;
+    }
   }
