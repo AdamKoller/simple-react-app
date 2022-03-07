@@ -33,6 +33,11 @@ function App() {
     }
   ]
 
+  const addExpenseHandler = expense => {
+    console.log('in App.js');
+    console.log(expense);
+  }
+
   // IN THE PAST, YOU NEED TO USE 'import React from "react"' WHEN USING OBJECTS LIKE SHOWN BELOW
   // return React.createElement(
   //   'div',
@@ -44,7 +49,7 @@ function App() {
   return (
     <div className="container">
       <header className="App-header">
-        <NewExpense />
+        <NewExpense onAddExpense={addExpenseHandler} />
         {/* the 'items' keyword will be replaced by the array 'expenses' */}
         <ExpenseList items={expenses} />
       </header>
